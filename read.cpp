@@ -21,7 +21,8 @@ int main() {
         std::cout<<"Quick sort in C++\n\n";
         std::ifstream inFile("registration.txt");
 
-        int size = 5, i = 0;
+        const int size = 5;
+        int i = 0;
         Client clients[size];
         int accs[size];
 
