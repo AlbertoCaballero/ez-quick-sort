@@ -14,3 +14,6 @@ read.vcxproj.filters
 
 ZERO_CHECK.vcxproj
 ZERO_CHECK.vcxproj.filters
+
+Makefile
+read
