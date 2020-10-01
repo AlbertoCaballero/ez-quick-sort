@@ -31,18 +31,17 @@ int main() {
                 while(std::getline(inFile,line)) {
 
                         std::stringstream ss(line);
-
                         std::getline(ss,clients[i].account,',');    
-			std::cout<<"\""<<clients[i].account<<"\"";
-                        
-			std::getline(ss,clients[i].name,','); 
-			std::cout<<", \""<<clients[i].name<<"\"";
-                        
-			std::getline(ss,clients[i].weigth,','); 
-			std::cout<<", \""<<clients[i].weigth<<"\"";
-                        
-			std::getline(ss,clients[i].age,','); 
-			std::cout<<", \""<<clients[i].age<<"\"";
+                        std::cout<<"\""<<clients[i].account<<"\"";
+
+                        std::getline(ss,clients[i].name,','); 
+                        std::cout<<", \""<<clients[i].name<<"\"";
+
+                        std::getline(ss,clients[i].weigth,','); 
+                        std::cout<<", \""<<clients[i].weigth<<"\"";
+
+                        std::getline(ss,clients[i].age,','); 
+                        std::cout<<", \""<<clients[i].age<<"\"";
 
                         accs[i] = std::stoi(clients[i].account);
 
